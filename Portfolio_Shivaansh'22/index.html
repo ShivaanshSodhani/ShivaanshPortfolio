@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivaanshPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/169373119c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Shivaansh<br> Sodhani</span> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>undergraduate at the BITS Pilani campus in Goa. I decided to pursue a dual degree that combines a bachelor's in computer science with a master's in economics. My interest in quantitative finance is growing, and I intend to pursue a career in it.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>IT Analyst</span><br>From June to July 2022, I completed my internship at OnFinance, where I studied the fundamentals of web 3.0 and blockchain.</li>
+                            <li><span>Core at Alumni Relations Cell, BITS Pilani</span><br>Served as a key member of the alumni relations cell and gained experience networking and organising events.</li>
+                            <li><span>Core at Wall Street Club, BITS Pilani</span><br>learned a variety of photo and videographic techniques</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Birla Institute of Technology and Science, K. K. Birla Goa campus</span><br>MSc. Economics + Computer Science</li>
+                            <li><span>Bridgeford School</span><br>1st to 12th standard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- ------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Html</h2>
+                    <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>Cascading Style Sheet</h2>
+                    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Javascript</h2>
+                    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.</p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-coins"></i>
+                    <h2>Derivatives and Risk Management</h2>
+                    <p>Derivatives are financial instruments that have values derived from other assets like stocks, bonds, or foreign exchange. Derivatives are sometimes used to hedge a position (protecting against the risk of an adverse move in an asset) or to speculate on future moves in the underlying instrument. Hedging is a form of risk management that is common in the stock market, where investors use derivatives called put options to protect shares or even entire portfolios.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Java SE lets you develop and deploy Java applications on desktops and servers. Java SE and component technologies offer the rich user interface, performance, versatility, portability, and security that today's applications require.</p>
+                    <a href="https://docs.oracle.com/en/java/index.html" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-eye"></i>
+                    <h2>Securities Asset and Portfolio Management</h2>
+                    <p>Portfolio management is the art and science of selecting and overseeing a group of investments that meet the long-term financial objectives and risk tolerance of a client, a company, or an institution.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Licenses and Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/introToWebDevelopment.png" alt="">
+                    <div class="layer">
+                        <h3>Intro to Web Development</h3>
+                        <p>CTE, BITS Pilani, was in charge of teaching this course. Using HTML and CSS, I acquired the fundamentals of web development.</p>
+                        <a href="images/Certificate of Completion(web Development).pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bloomberg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bloomberg Market Concept</h3>
+                        <p>I successfully completed this course offered by Bloomberg, which provided me with knowledge of actual market movements and helped me become familiar with several crucial terms used in the financial sector.</p>
+                        <a href="images/Bloomberg_Market_Concept_Completion.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/APIBasedProgramming.png" alt="">
+                    <div class="layer">
+                        <h3>API based programming</h3>
+                        <p>I studied how recommendations are given to users with the use of the Spotify API from this Postman course.</p>
+                        <a href="images/API_CertificateOfCompletion.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sodhanishivaansh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9608648295</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/916203406352?text=Hello Shivaansh" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/Shivaansh_25" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivaansh-sodhani-8970b7188/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume-ShivaanshSodhani.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email address" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Shivaansh <i class="fa-solid fa-heart"></i> Thanks for visiting the site</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby6Q9hV3XE-NXVM5aLLgbEyoOACwsv4jLX7hNEwhmPzH3l9iBdSWlfgBK4IBQ0uxGdiZQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
